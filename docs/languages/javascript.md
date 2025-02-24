@@ -258,6 +258,7 @@ The `setting(editor.codeActionsOnSave)` setting lets you configure a set of Code
 ```
 
 As of today, the following enums are supported:
+
 * `explicit` (default): Triggers Code Actions when explicitly saved. Same as `true`.
 * `always`: Triggers Code Actions when explicitly saved and on Auto Saves from window or focus changes.
 * `never`: Never triggers Code Actions on save. Same as `false`.
